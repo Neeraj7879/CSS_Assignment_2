@@ -1,0 +1,69 @@
+/* For  assigning 800 * 500 px  */
+.main-container{
+  width: 800px;
+  height: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid black;
+}
+/* for 1st box  */
+.heading-box{
+  height: 36%;
+  margin: 0.5em 0.5em 0em 0.5em;
+  background-color: #ff9999;
+  border: 1px solid black;
+}
+.heading p{
+  font-size: 2.2em;
+  text-align: left;
+  margin: 0.5em 2em 0.5em 2.5em;
+}
+.second-heading{
+  font-size: 1.4em;
+  padding: 0.7em 0em 0em 0em;
+  margin: 0em 0em 0em 3em ;
+}
+/* For About me image  */
+.box2{
+  float: right;
+  width: 27%;
+  height: 96%;
+  padding: 5px;
+  text-align: center;
+  background-color: #ececfb;
+}
+#user{
+  height: 55%;
+  width: 70%;
+}
+/* For about me  */
+#about-me{
+  margin: 0 0 0 0;
+  font-size: 1.8em;
+}
+.box2 p{
+  margin: 0 0 0 0;
+  font-size: 1.1em;
+  padding: 0px 11px 0px 11px;
+}
+/* For Image and about me */
+.image-box{ 
+  height: 59%;
+  border: 1px solid black;
+  margin: 0em 0.5em 0em 0.5em;
+}
+/* For image */
+.box1{
+  height: 96%;
+  float: left;
+  width: 70%;
+  padding: 5px;
+  background-color: yellow;
+  border-right: 1px solid black;
+}
+#image1{
+  width: 100%;
+  height: 100%;
+}
